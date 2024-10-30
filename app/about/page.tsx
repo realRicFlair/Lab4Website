@@ -1,5 +1,4 @@
-import Link from "next/link";
-import { ArrowRightIcon } from "@heroicons/react/24/outline";
+export const dynamic = "force-static";
 import Image from "next/image";
 import ArrowButton from "../ui/ArrowButton";
 

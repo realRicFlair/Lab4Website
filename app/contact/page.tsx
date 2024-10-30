@@ -1,7 +1,7 @@
-"use client"
+export const dynamic = "force-static";
+
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
 import { useState } from "react";
-
 export default function Page() {
   
   const [formData, setFormData] = useState({

@@ -1,19 +1,12 @@
-import AcmeLogo from '@/app/ui/acme-logo';
-import { ArrowRightIcon } from '@heroicons/react/24/outline';
-import Link from 'next/link';
-import { lusitana } from '@/app/ui/fonts';
-import Image from 'next/image';
+export const dynamic = "force-static";
+
 import { useState, Suspense } from 'react';
 //import RotatingGlassCube from './ui/glassCube';
-import dynamic from 'next/dynamic'
-import { LazyMotion, domAnimation, m } from "framer-motion";
 
 import AboutSection from './aboutsection';
-import NavbarMain from './ui/NavbarMain';
-import ProjectsSnippet from './ui/ProjectsSnippet';
+
 import ArrowButton from './ui/ArrowButton';
 
-const RotatingGlassCube = dynamic(() => import('./ui/glassCube'))
 
 
 
@@ -32,7 +25,6 @@ export default function Page() {
 
         <div className="flex items-center justify-center p-6 md:w-1/2 md:px-10 md:py-12">
           <Suspense fallback={<div>Loading...</div>}>
-            <RotatingGlassCube />
           </Suspense>
         </div>
       </div>
