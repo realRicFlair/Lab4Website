@@ -2,6 +2,8 @@ import '@/app/ui/global.css';
 import { inter } from '@/app/ui/fonts';
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import NavbarMain from './ui/NavbarMain';
+export const dynamic = 'static';
+
 
 export default function RootLayout({
   children,
