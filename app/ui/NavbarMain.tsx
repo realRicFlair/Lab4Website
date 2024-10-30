@@ -13,7 +13,6 @@ export default function NavbarMain() {
           </div>
         </Link>
         <div className="flex space-x-10 text-lg">
-          <Navbutton xlink="/projects" text="PROJECTS" />
           <Navbutton xlink="/about" text="ABOUT" />
           <Navbutton xlink="/contact" text="CONTACT" />
         {/*
