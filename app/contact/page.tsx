@@ -1,3 +1,4 @@
+"use client"
 export const dynamic = "force-static";
 
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
