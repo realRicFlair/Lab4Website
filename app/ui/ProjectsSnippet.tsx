@@ -15,7 +15,7 @@ interface Project {
 const projects: Project[] = [
   { id: 1, title: 'My favourite game this year!', description: 'Its space marine 2! Its sick. I love 40k', img: "/SM2.jpg", url: "https://www.focus-entmt.com/en/games/warhammer-40000-space-marine-2" },
   { id: 2, title: 'Photography', description: 'Random pic of a mountain I took on my phone', img: "/CoolMountain.jpg", url: "https://en.wikipedia.org/wiki/Mount_Baker" },
-  { id: 3, title: 'What Im Hyped for', description: 'Dune Prophecy Series', img: "/Dune.jpg", url: "https://www.youtube.com/watch?v=CzVHWNosS2o&ab_channel=Max" },
+  { id: 3, title: 'What Im Hyped for', description: 'Dune Prophecy Series', img: "/duneprophecy.jpg", url: "https://www.youtube.com/watch?v=CzVHWNosS2o&ab_channel=Max" },
   { id: 4, title: 'Random Video', description: 'yeah idk what this is', url: "https://www.youtube.com/watch?v=UXA-Af-JeCE&ab_channel=xkcd%27sWhatIf%3F" },
 ];
 
@@ -50,9 +50,6 @@ const ProjectsSnippet = () => {
           </Link>
         ))}
       </motion.div>
-      <div className="mt-6 text-center">
-        <ArrowButton text="View All Projects" href="projects"/>
-      </div>
     </div>
   );
 };
